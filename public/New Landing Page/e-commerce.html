@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <style>
+        .Product-List{
+            display: flex;
+            gap: 2rem;
+        }
+        .box {
+            width: 25%;
+            height: 40vh;
+            margin: 3rem;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2); 
+        }
+        .box img{
+            background-size: cover;
+            width: 100%;
+            height:17vh;
+        }
+        .box button{
+            color: white;
+            background-color: gray;
+            border: 0;
+            cursor: pointer; 
+            padding: 8px;
+            border-radius: 5px;
+            margin-left: 29%;
+            margin-top: -75%
+        }
+        .box h6, p, h5{
+            margin-left: 7px;
+            
+        }
+        .cart{
+            display: flex;
+            gap: 2rem;
+        }
+        .final{
+            display: flex;
+            gap: 2rem;  
+        }
+        @media screen and (max-width : 740px){
+            .box{
+                width: 90%;
+                margin: 0;
+            }
+            .Product-List{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+
+            }
+            .cart{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+            }
+            .final{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+            }
+        }
+        
+            @media screen and (max-width: 840px) {
+            .box{
+                width: 90%;
+                margin: 0;
+            }
+            .Product-List{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+
+            }
+            .cart{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+            }
+            .final{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+            }
+            }
+
+            @media screen and (max-width: 1024px) {
+                .box{
+                width: 90%;
+                margin: 0;
+            }
+            .Product-List{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+
+            }
+            .cart{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+            }
+            .final{
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem;
+            }
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Product">
+             <div class="Product-List">
+                
+                <div class="box">
+                    <img src="../New Landing Page/Assets/image-cake-desktop.jpg" alt="Product" width="100" height="100"><br>
+                    <button type="submit">Add to Cart</button>
+                    <h6>Waffle</h6>
+                    <p>Waffle With Berries</p>
+                    <h5>$6.50</h5>
+                </div>
+                <div class="box">
+                    <img src="../New Landing Page/Assets/image-brownie-desktop.jpg" alt="Product" width="100" height="100"><br>
+                    <button type="submit">Add to Cart</button>
+                    <h6>Waffle</h6>
+                    <p>Waffle With Berries</p>
+                    <h5>$6.50</h5>
+                </div>
+                <div class="box">
+                    <img src="../New Landing Page/Assets/image-baklava-desktop.jpg" alt="Product" width="100" height="100"><br>
+                    <button type="submit">Add to Cart</button>
+                    <h6>Waffle</h6>
+                    <p>Waffle With Berries</p>
+                    <h5>$6.50</h5>
+                </div>
+                <div class="box">
+                    <img src="../New Landing Page/Assets/image-creme-brulee-desktop.jpg" alt="Product" width="100" height="100"><br>
+                    <button type="submit">Add to Cart</button>
+                    <h6>Waffle</h6>
+                    <p>Waffle With Berries</p>
+                    <h5>$6.50</h5>
+                </div>
+                
+             </div>
+        </div>
+        <div class="cart">
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-waffle-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Waffle</h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-panna-cotta-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Creme </h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-meringue-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Waffle</h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-macaron-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Waffle</h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+            
+        </div>
+        <div class="final">
+            <div class="box">
+            <img src="../New Landing Page/Assets/image-tiramisu-desktop.jpg" alt="Product" width="100" height="100"><br>
+            <button type="submit">Add to Cart</button>
+            <h6>Waffle</h6>
+            <p>Waffle With Berries</p>
+            <h5>$6.50</h5>
+            </div>
+            
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-cake-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Waffle</h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-brownie-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Waffle</h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+            <div class="box">
+                <img src="../New Landing Page/Assets/image-baklava-desktop.jpg" alt="Product" width="100" height="100"><br>
+                <button type="submit">Add to Cart</button>
+                <h6>Waffle</h6>
+                <p>Waffle With Berries</p>
+                <h5>$6.50</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

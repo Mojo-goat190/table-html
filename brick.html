@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick</title>
+</head>
+<body>
+    <div id="startScreen">
+        <h2>Brick</h2>
+        <label for="playerName">
+            Enter your player name
+        </label>
+        <input type="text"
+                id="playerName"
+                placeholder="Your Name">
+        <button id="startButton">
+            Start Game
+        </button>
+    </div>
+
+    <div id="gameScreen"
+        style="display: none;">
+        <canvas id="canvas"></canvas>
+        <canvas id="canvas1"></canvas>
+        <div style="display:inline">
+            <h2 style="text-align:center" 
+                id="curr_score">
+                YOUR SCORE:
+            </h2>
+            <h2 style="text-align:center" 
+                id="high_score">
+                HIGH SCORE:
+            </h2>
+        </div>
+</div>
+    <script src="name.js"></script>
+    <script src="brick.js"></script>
+</body>
+</html>

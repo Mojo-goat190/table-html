@@ -1,0 +1,111 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    margin-left: 32%;
+    gap: 0.5rem;
+}
+
+.container img{
+    width: 8vw;
+    height: 6vh;
+    margin-top: 1rem;
+    
+}
+table{
+    margin-left: 30%;
+    align-items: center;
+    justify-items: center;
+}
+thead{
+    margin-left: -5rem;
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+th{
+    padding: 8px;
+}
+tbody{
+    background-color: whitesmoke;
+}
+tbody tr{
+    background-color: white ;
+}
+tbody td{
+    background-color:burlywood;
+    color: black;
+}
+#champion:hover td{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#second:hover td{
+    background-color:  blue;
+    color: white;
+    text-align: center;
+}
+
+#third:hover td{
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+#fourth:hover td{
+    background-color: red;
+    color: yellow;
+    text-align: center;
+}
+#fifth:hover td{
+    background-color: cyan;
+    color: brown;
+    text-align: center;
+}
+
+#sixth:hover td{
+    background-color: blue;
+    color: red;
+    text-align: center;
+}
+#seventh:hover td{
+    background-color: red;
+    color: green;
+    text-align: center;
+}
+#eigth:hover td{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+#ninth:hover td{
+    background-color: black;
+    color:aqua;
+    text-align: center;
+}
+#twentieth:hover td{
+    background-color:goldenrod;
+    color: black;
+    text-align: center;
+}
+@media screen and (max-width: 840px) {
+    table{
+        margin: 1rem;
+    }
+    .container img{
+        width: 23vw;
+        height: 8vh;
+    }
+    .container{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 25px;
+        padding-top: 24px;
+    }
+}
+    
